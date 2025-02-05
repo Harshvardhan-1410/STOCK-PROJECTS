@@ -25,7 +25,7 @@ df=df.drop(columns=['date','adjclose'])
 # Display the fetched data
 st.write(df)
 
-#visualizations
+#visualizations to plot the graph
 st.subheader('closing Price vs Time chart')
 fig=plt.figure(figsize=(12,6))
 plt.plot(df.close)
