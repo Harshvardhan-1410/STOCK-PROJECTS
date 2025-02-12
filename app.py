@@ -3,9 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from keras.models import load_model
 import streamlit as st
-
-
-
 from yahoo_fin import stock_info as si
 
 
